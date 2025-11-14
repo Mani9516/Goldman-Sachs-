@@ -1,4 +1,9 @@
 System Architecture Overview
-[ Market Data + News ] → [ Data Ingestor ] → [ NLP + MARL Agents ] → [ Decision Orchestrator ]
-                                                              ↓
+ Market Data + News                                                       ↓
+↓
+[ Data Ingestor ] -> [ Explainability Dashboard ]
+↓
+[ NLP + MARL Agents ]
+↓
+[ Decision Orchestrator ]    
 
